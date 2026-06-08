@@ -89,6 +89,23 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { passive: true });
   }
 
+  // ── HERO LOGO – fixed mientras hero es visible, se oculta al salir ──
+  const heroLogo = document.querySelector('.hero-logo-float');
+  const heroSection = document.getElementById('inicio');
+  if (heroLogo && heroSection) {
+    window.addEventListener('scroll', () => {
+      const heroBottom = heroSection.getBoundingClientRect().bottom;
+      if (heroBottom > 200) {
+        heroLogo.style.position = 'fixed';
+        heroLogo.style.top = '90px';
+        heroLogo.style.opacity = '1';
+      } else {
+        heroLogo.style.opacity = '0';
+        heroLogo.style.transition = 'opacity 0.4s ease';
+      }
+    }, { passive: true });
+  }
+
   // ── HUELLITAS FLOTANTES ──
   if (!document.getElementById('pawFloatStyle')) {
     const s = document.createElement('style');

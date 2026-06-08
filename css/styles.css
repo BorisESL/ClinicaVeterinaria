@@ -144,10 +144,10 @@ body{font-family:'Nunito',sans-serif;background:var(--white);color:var(--text-da
   100%{transform:translate(0,0) scale(1);}
 }
 
-/* Logo flotante — esquina superior izquierda, flota suavemente ahí */
+/* Logo flotante — esquina superior izquierda del hero */
 .hero-logo-float{
-  position:fixed;
-  top:90px;left:40px;
+  position:absolute;
+  top:80px;left:40px;
   z-index:3;
   pointer-events:none;
   animation:heroLogoFloat 4s ease-in-out infinite;
@@ -226,7 +226,7 @@ body{font-family:'Nunito',sans-serif;background:var(--white);color:var(--text-da
 .vet-avatar{position:relative;margin-bottom:18px;}
 .vet-avatar-inner{width:90px;height:90px;border-radius:50%;margin:0 auto;background:linear-gradient(135deg,#4ecb8d,#1a9e6b);display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 8px 24px rgba(26,158,107,0.25);}
 /* Foto real */
-.vet-photo{width:100%;height:100%;object-fit:cover;object-position:center 20%;border-radius:50%;display:block;}
+.vet-photo{width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:50%;display:block;}
 /* Fallback iniciales */
 .vet-initials{width:100%;height:100%;border-radius:50%;display:none;align-items:center;justify-content:center;font-family:'Fredoka One',cursive;font-size:1.6rem;color:white;text-shadow:0 2px 8px rgba(0,0,0,0.2);}
 .vet-specialty-badge{position:absolute;bottom:-8px;left:50%;transform:translateX(-50%);background:var(--green-main);color:white;font-size:0.7rem;font-weight:800;padding:4px 12px;border-radius:50px;white-space:nowrap;}
@@ -285,7 +285,7 @@ body{font-family:'Nunito',sans-serif;background:var(--white);color:var(--text-da
 /* ══ FOOTER ══ */
 .footer{background:linear-gradient(135deg,#052e1c,#0d6e48);color:white;}
 .footer-container{max-width:1200px;margin:0 auto;padding:60px 24px 40px;display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:40px;}
-.footer-brand img{height:150px;margin-bottom:14px;filter:brightness(1.1) drop-shadow(0 2px 8px rgba(78,203,141,0.4));}
+.footer-brand img{height:65px;margin-bottom:14px;filter:brightness(1.1) drop-shadow(0 2px 8px rgba(78,203,141,0.4));}
 .footer-brand p{color:rgba(255,255,255,0.65);font-size:0.95rem;line-height:1.6;}
 .footer-links h4,.footer-contact h4{font-family:'Fredoka One',cursive;font-size:1.1rem;color:var(--green-mid);margin-bottom:16px;}
 .footer-links ul{list-style:none;display:flex;flex-direction:column;gap:8px;}
