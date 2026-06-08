@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clínica Veterinaria Larraín – Chiguayante</title>
+  <link rel="icon" type="image/png" href="img/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ══════════════ SPLASH SCREEN ══════════════ -->
+  <div id="splash">
+    <div class="splash-scene">
+      <div class="splash-main">
+        <div class="splash-logo-wrap" id="splashLogo">
+          <img src="img/logo.png" alt="Clínica Larraín" class="splash-logo" />
+        </div>
+      </div>
+      <div class="splash-text">
+        <p>Cargando...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════ NAVBAR ══════════════ -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="nav-logo">
+        <span class="nav-wordmark">🐾 Clínica <strong>Larraín</strong></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#equipo">Equipo</a></li>
+        <li><a href="#horarios">Horarios</a></li>
+        <li><a href="#reserva">Reservar Hora</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section id="inicio" class="hero">
+    <div class="bubble b1"></div>
+    <div class="bubble b2"></div>
+    <div class="bubble b3"></div>
+    <div class="bubble b4"></div>
+    <div class="bubble b5"></div>
+
+    <!-- Logo flotante que deriva por el hero -->
+    <div class="hero-logo-float" id="heroLogo">
+      <img src="img/logo.png" alt="Clínica Larraín" class="hero-logo-img" />
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-badge">🐾 Chiguayante, Biobío</div>
+        <h1>El mejor cuidado<br/><span class="hero-highlight">para tu mascota</span></h1>
+        <p class="hero-subtitle">Consultas, cirugías, ecografías, hospitalización y más. Tu familia peluda merece lo mejor.</p>
+        <div class="hero-btns">
+          <a href="#reserva" class="btn-primary">📅 Reservar Hora</a>
+          <a href="https://wa.me/56956382630" target="_blank" class="btn-whatsapp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+        <div class="hero-phones">
+          <span>📞 (41) 236 7508</span>
+          <span>🏥 (41) 349 9415</span>
+        </div>
+      </div>
+
+      <!-- Mockup Celular -->
+      <div class="hero-phone-wrap">
+        <div class="phone-mockup">
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <img src="img/hero-dra.jpeg" alt="Dra. Clínica Larraín" />
+            </div>
+          </div>
+          <div class="phone-badge badge-top">⭐ Atención de excelencia</div>
+          <div class="phone-badge badge-bottom">🐶 +25 años de experiencia</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f0faf5"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ══════════════ SERVICIOS ══════════════ -->
+  <section id="servicios" class="section servicios-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">¿Qué ofrecemos?</span>
+        <h2>Nuestros <span class="highlight">Servicios</span></h2>
+        <p>Cuidado integral para perros, gatos y más</p>
+      </div>
+      <div class="servicios-grid">
+        <div class="servicio-card" data-delay="0">
+          <div class="servicio-icon" style="background:linear-gradient(135deg,#f0abfc,#c084fc)">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="24" r="14" fill="white" opacity="0.3"/><path d="M20,40 Q32,52 44,40" stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="26" cy="22" r="3" fill="white"/><circle cx="38" cy="22" r="3" fill="white"/><ellipse cx="32" cy="30" rx="4" ry="2.5" fill="white" opacity="0.8"/></svg>
+          </div>
+          <h3>Consultas</h3>
+          <p>Atención médica general para el diagnóstico, tratamiento y seguimiento de tu mascota con profesionales dedicados.</p>
+        </div>
+        <div class="servicio-card" data-delay="100">
+          <div class="servicio-icon" style="background:linear-gradient(135deg,#86efac,#22c55e)">
+            <svg viewBox="0 0 64 64" fill="none"><rect x="18" y="12" width="28" height="38" rx="4" fill="white" opacity="0.3"/><circle cx="32" cy="28" r="10" fill="white" opacity="0.5"/><path d="M24,28 Q32,20 40,28" stroke="white" stroke-width="2.5" fill="none"/><circle cx="32" cy="28" r="4" fill="white"/></svg>
+          </div>
+          <h3>Ecografías</h3>
+          <p>Diagnóstico por imagen de alta precisión para evaluar órganos internos, gestaciones y mucho más.</p>
+        </div>
+        <div class="servicio-card" data-delay="200">
+          <div class="servicio-icon" style="background:linear-gradient(135deg,#93c5fd,#3b82f6)">
+            <svg viewBox="0 0 64 64" fill="none"><rect x="16" y="16" width="32" height="32" rx="3" fill="white" opacity="0.3"/><ellipse cx="32" cy="32" rx="10" ry="14" fill="white" opacity="0.6"/><line x1="16" y1="32" x2="48" y2="32" stroke="white" stroke-width="1.5" opacity="0.5"/><line x1="32" y1="16" x2="32" y2="48" stroke="white" stroke-width="1.5" opacity="0.5"/></svg>
+          </div>
+          <h3>Rayos X</h3>
+          <p>Radiografías digitales para diagnóstico óseo, torácico y abdominal con resultados inmediatos.</p>
+        </div>
+        <div class="servicio-card" data-delay="300">
+          <div class="servicio-icon" style="background:linear-gradient(135deg,#fca5a5,#ef4444)">
+            <svg viewBox="0 0 64 64" fill="none"><rect x="20" y="18" width="24" height="30" rx="5" fill="white" opacity="0.4"/><rect x="28" y="10" width="8" height="14" rx="2" fill="white" opacity="0.4"/><path d="M26,34 L38,34 M32,28 L32,40" stroke="white" stroke-width="3" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Hospitalización</h3>
+          <p>Unidad hospitalaria equipada para el cuidado y monitoreo continuo de mascotas que requieren internación.</p>
+        </div>
+        <div class="servicio-card" data-delay="400">
+          <div class="servicio-icon" style="background:linear-gradient(135deg,#fde68a,#f59e0b)">
+            <svg viewBox="0 0 64 64" fill="none"><path d="M32,12 Q44,14 48,26 Q52,38 40,46 Q32,52 24,46 Q12,38 16,26 Q20,14 32,12Z" fill="white" opacity="0.3"/><ellipse cx="26" cy="28" rx="5" ry="6" fill="white" opacity="0.6"/><ellipse cx="38" cy="28" rx="5" ry="6" fill="white" opacity="0.6"/><path d="M24,38 Q32,44 40,38" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Hotel Gatos</h3>
+          <p>Hospedaje seguro, cómodo y amoroso para tu gato mientras estás de viaje. Atención personalizada.</p>
+        </div>
+        <div class="servicio-card" data-delay="500">
+          <div class="servicio-icon" style="background:linear-gradient(135deg,#a5f3fc,#06b6d4)">
+            <svg viewBox="0 0 64 64" fill="none"><rect x="14" y="22" width="36" height="24" rx="4" fill="white" opacity="0.3"/><rect x="22" y="14" width="20" height="14" rx="3" fill="white" opacity="0.4"/><path d="M28,34 L36,34 M32,30 L32,38" stroke="white" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="38" r="2" fill="white" opacity="0.7"/><circle cx="40" cy="38" r="2" fill="white" opacity="0.7"/></svg>
+          </div>
+          <h3>Farmacia y Alimentos</h3>
+          <p>Medicamentos veterinarios, antiparasitarios, alimentos premium y accesorios para el bienestar de tu mascota.</p>
+        </div>
+        <div class="servicio-card" data-delay="600">
+          <div class="servicio-icon" style="background:linear-gradient(135deg,#c4b5fd,#7c3aed)">
+            <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="26" r="13" fill="white" opacity="0.3"/><path d="M26,22 L38,22 M32,16 L32,28" stroke="white" stroke-width="3" stroke-linecap="round"/><path d="M18,44 Q32,54 46,44" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/><circle cx="20" cy="50" r="3" fill="white" opacity="0.6"/><circle cx="32" cy="54" r="3" fill="white" opacity="0.6"/><circle cx="44" cy="50" r="3" fill="white" opacity="0.6"/></svg>
+          </div>
+          <h3>Especialidades</h3>
+          <p>Consultar especialidades disponibles directamente con nuestro equipo médico. Llámanos o escríbenos por WhatsApp.</p>
+        </div>
+        <div class="servicio-card" data-delay="700">
+          <div class="servicio-icon" style="background:linear-gradient(135deg,#fb923c,#dc2626)">
+            <svg viewBox="0 0 64 64" fill="none"><path d="M14,38 L22,30 L30,38 L42,20" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="42" cy="20" r="5" fill="white" opacity="0.7"/><path d="M22,50 Q32,42 42,50" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/><line x1="32" y1="42" x2="32" y2="54" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Cirugías</h3>
+          <p>Procedimientos quirúrgicos con equipamiento moderno, anestesiología especializada y protocolo de seguridad completo.</p>
+        </div>
+      </div>
+    </div>
+    <div class="section-deco deco-paw1">🐾</div>
+    <div class="section-deco deco-paw2">🐾</div>
+  </section>
+
+  <!-- ══════════════ EQUIPO ══════════════ -->
+  <section id="equipo" class="section equipo-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nuestros profesionales</span>
+        <h2>El <span class="highlight">Equipo</span></h2>
+        <p>Médicos veterinarios comprometidos con la salud de tus mascotas</p>
+      </div>
+      <div class="equipo-grid">
+
+        <div class="vet-card featured" data-delay="0">
+          <div class="vet-avatar">
+            <div class="vet-avatar-inner" style="background:linear-gradient(135deg,#4ecb8d,#1a9e6b)">
+              <img src="img/vet-victoria.jpg" alt="Dra. Victoria Larraín" class="vet-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+              <div class="vet-initials">VL</div>
+            </div>
+            <div class="vet-specialty-badge" style="background:#1a9e6b">🔊 Ecógrafa</div>
+          </div>
+          <h3>Dra. Victoria Larraín</h3>
+          <p class="vet-role">Médico General · Ecógrafa</p>
+          <p class="vet-desc">Médico general con especialización en diagnóstico por imagen ecográfica y amplia experiencia en medicina veterinaria.</p>
+        </div>
+
+        <div class="vet-card" data-delay="100">
+          <div class="vet-avatar">
+            <div class="vet-avatar-inner" style="background:linear-gradient(135deg,#86efac,#22c55e)">
+              <img src="img/vet-daiana.jpg" alt="Dra. Daiana Toledo" class="vet-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+              <div class="vet-initials">DT</div>
+            </div>
+            <div class="vet-specialty-badge" style="background:#22c55e">💉 Anestesista</div>
+          </div>
+          <h3>Dra. Daiana Toledo</h3>
+          <p class="vet-role">Médico General · Anestesista</p>
+          <p class="vet-desc">Médico general especializada en anestesiología veterinaria para procedimientos quirúrgicos seguros.</p>
+        </div>
+
+        <div class="vet-card" data-delay="200">
+          <div class="vet-avatar">
+            <div class="vet-avatar-inner" style="background:linear-gradient(135deg,#93c5fd,#3b82f6)">
+              <img src="img/vet-lissette.jpg" alt="Dra. Lissette Venegas" class="vet-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+              <div class="vet-initials">LV</div>
+            </div>
+            <div class="vet-specialty-badge" style="background:#3b82f6">🩺 Médico General</div>
+          </div>
+          <h3>Dra. Lissette Venegas</h3>
+          <p class="vet-role">Médico General</p>
+          <p class="vet-desc">Atención veterinaria integral con enfoque en el bienestar y la salud preventiva.</p>
+        </div>
+
+        <div class="vet-card" data-delay="300">
+          <div class="vet-avatar">
+            <div class="vet-avatar-inner" style="background:linear-gradient(135deg,#fca5a5,#ef4444)">
+              <img src="img/vet-nicolas.jpg" alt="Dr. Nicolás Mansoulet" class="vet-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+              <div class="vet-initials">NM</div>
+            </div>
+            <div class="vet-specialty-badge" style="background:#ef4444">🩺 Médico General</div>
+          </div>
+          <h3>Dr. Nicolás Mansoulet</h3>
+          <p class="vet-role">Médico General</p>
+          <p class="vet-desc">Consultas y atención clínica general con trato cálido y profesional.</p>
+        </div>
+
+        <div class="vet-card" data-delay="400">
+          <div class="vet-avatar">
+            <div class="vet-avatar-inner" style="background:linear-gradient(135deg,#fde68a,#f59e0b)">
+              <img src="img/vet-valeria.jpg" alt="Dra. Valeria Moncada" class="vet-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+              <div class="vet-initials">VM</div>
+            </div>
+            <div class="vet-specialty-badge" style="background:#f59e0b">🩺 Médico General</div>
+          </div>
+          <h3>Dra. Valeria Moncada</h3>
+          <p class="vet-role">Médico General</p>
+          <p class="vet-desc">Atención clínica integral con especial cuidado y dedicación a cada paciente.</p>
+        </div>
+
+        <div class="vet-card" data-delay="500">
+          <div class="vet-avatar">
+            <div class="vet-avatar-inner" style="background:linear-gradient(135deg,#a5f3fc,#06b6d4)">
+              <img src="img/vet-valentina.jpeg" alt="Dra. Valentina Rubilar" class="vet-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+              <div class="vet-initials">VR</div>
+            </div>
+            <div class="vet-specialty-badge" style="background:#06b6d4">🩺 Médico General</div>
+          </div>
+          <h3>Dra. Valentina Rubilar</h3>
+          <p class="vet-role">Médico General</p>
+          <p class="vet-desc">Comprometida con el diagnóstico oportuno y el tratamiento efectivo de cada mascota.</p>
+        </div>
+
+        <div class="vet-card" data-delay="600">
+          <div class="vet-avatar">
+            <div class="vet-avatar-inner" style="background:linear-gradient(135deg,#fbcfe8,#ec4899)">
+              <img src="img/vet-francisca.jpg" alt="Dra. Francisca Alarcón" class="vet-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+              <div class="vet-initials">FA</div>
+            </div>
+            <div class="vet-specialty-badge" style="background:#ec4899">🩺 Médico General</div>
+          </div>
+          <h3>Dra. Francisca Alarcón</h3>
+          <p class="vet-role">Médico General</p>
+          <p class="vet-desc">Atención veterinaria con enfoque humanizado y profundo amor por los animales.</p>
+        </div>
+
+        <div class="vet-card" data-delay="700">
+          <div class="vet-avatar">
+            <div class="vet-avatar-inner" style="background:linear-gradient(135deg,#d9f99d,#84cc16)">
+              <img src="img/vet-camila.jpg" alt="Dra. Camila Gutiérrez" class="vet-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+              <div class="vet-initials">CG</div>
+            </div>
+            <div class="vet-specialty-badge" style="background:#84cc16">🔬 Dermatóloga</div>
+          </div>
+          <h3>Dra. Camila Gutiérrez</h3>
+          <p class="vet-role">Médico General · Dermatóloga</p>
+          <p class="vet-desc">Especialista en dermatología veterinaria, diagnóstico y tratamiento de enfermedades de la piel en mascotas.</p>
+        </div>
+
+        <div class="vet-card" data-delay="800">
+          <div class="vet-avatar">
+            <div class="vet-avatar-inner" style="background:linear-gradient(135deg,#fed7aa,#f97316)">
+              <img src="img/vet-anna.jpg" alt="Dra. Anna Vargas" class="vet-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+              <div class="vet-initials">AV</div>
+            </div>
+            <div class="vet-specialty-badge" style="background:#f97316">🔪 Cirugía</div>
+          </div>
+          <h3>Dra. Anna Vargas</h3>
+          <p class="vet-role">Médico General · Cirugía</p>
+          <p class="vet-desc">Especialista en cirugía veterinaria con enfoque en procedimientos de alta complejidad y recuperación óptima.</p>
+        </div>
+
+        <div class="vet-card" data-delay="900">
+          <div class="vet-avatar">
+            <div class="vet-avatar-inner" style="background:linear-gradient(135deg,#bfdbfe,#6366f1)">
+              <img src="img/vet-antonia.jpg" alt="Dra. Antonia Vergara" class="vet-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+              <div class="vet-initials">AV</div>
+            </div>
+            <div class="vet-specialty-badge" style="background:#6366f1">🩺 Médico General</div>
+          </div>
+          <h3>Dra. Antonia Vergara</h3>
+          <p class="vet-role">Médico General</p>
+          <p class="vet-desc">Atención clínica general con vocación de servicio y compromiso con el bienestar de cada paciente.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ HORARIOS ══════════════ -->
+  <section id="horarios" class="section horarios-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">¿Cuándo atendemos?</span>
+        <h2>Horarios de <span class="highlight">Atención</span></h2>
+      </div>
+      <div class="horarios-grid">
+        <div class="horario-card">
+          <div class="horario-icon">🩺</div>
+          <h3>Consultas</h3>
+          <div class="horario-dias">
+            <span class="dia-badge">Lun – Vie</span>
+            <span class="dia-badge">Sáb</span>
+          </div>
+          <p class="horario-hora">09:00 – 18:00 hrs</p>
+          <p class="horario-nota">Atención con médico general y especialistas</p>
+        </div>
+        <div class="horario-card featured-horario">
+          <div class="horario-icon">🏥</div>
+          <h3>Hospital</h3>
+          <div class="horario-dias">
+            <span class="dia-badge active">24/7</span>
+          </div>
+          <p class="horario-hora">Todos los días</p>
+          <p class="horario-nota">Hospitalización y urgencias disponibles siempre</p>
+        </div>
+        <div class="horario-card">
+          <div class="horario-icon">🐱</div>
+          <h3>Hotel Gatos</h3>
+          <div class="horario-dias">
+            <span class="dia-badge">Lun – Sáb</span>
+          </div>
+          <p class="horario-hora">09:00 – 18:00 hrs</p>
+          <p class="horario-nota">Reserva con anticipación para tu tranquilidad</p>
+        </div>
+      </div>
+      <div class="horarios-phones">
+        <a href="tel:+56412367508" class="phone-link">📞 Recepción: (41) 236 7508</a>
+        <a href="tel:+56413499415" class="phone-link">🏥 Hospital: (41) 349 9415</a>
+        <a href="https://wa.me/56956382630" target="_blank" class="phone-link whatsapp-link">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp: +56 9 5638 2630
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ RESERVA ══════════════ -->
+  <section id="reserva" class="section reserva-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Agenda en línea</span>
+        <h2>Reserva tu <span class="highlight">Hora</span></h2>
+        <p>Selecciona el día y horario que más te acomode</p>
+      </div>
+      <div class="reserva-frame-wrap">
+        <iframe src="https://cvlarrain.crmveterinario.com/reserva_online" title="Reserva de hora – Clínica Veterinaria Larraín" loading="lazy" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ CONTACTO ══════════════ -->
+  <section id="contacto" class="section contacto-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">¿Dónde estamos?</span>
+        <h2>Contacto y <span class="highlight">Ubicación</span></h2>
+      </div>
+      <div class="contacto-grid">
+        <div class="contacto-info">
+          <div class="info-card">
+            <div class="info-icon">📍</div>
+            <div><h4>Dirección</h4><p>Colón 24, Chiguayante<br/>Región del Biobío</p></div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">📞</div>
+            <div><h4>Teléfonos</h4>
+              <p><a href="tel:+56412367508">(41) 236 7508</a> — Recepción<br/>
+                 <a href="tel:+56956382630">+56 9 5638 2630</a> — WhatsApp<br/>
+                 <a href="tel:+56413499415">(41) 349 9415</a> — Hospital</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">⏰</div>
+            <div><h4>Horario Consultas</h4><p>Lunes a Sábado<br/>09:00 – 18:00 hrs</p></div>
+          </div>
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100028371717068" target="_blank" class="social-btn facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              Facebook
+            </a>
+            <a href="https://www.instagram.com/veterinarialarrain" target="_blank" class="social-btn instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              Instagram
+            </a>
+            <a href="https://wa.me/56956382630" target="_blank" class="social-btn whatsapp">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="mapa-wrap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.5!2d-73.0301734!3d-36.9032001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b77032a5b031%3A0x8200923680c7ea68!2sClinica%20Veterinaria%20Larra%C3%ADn!5e0!3m2!1ses!2scl!4v1" title="Ubicación Clínica Veterinaria Larraín" loading="lazy" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="img/logo.png" alt="Clínica Larraín" />
+        <p>Cuidando a tu mascota con amor y profesionalismo desde Chiguayante.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#equipo">Equipo</a></li>
+          <li><a href="#horarios">Horarios</a></li>
+          <li><a href="#reserva">Reservar Hora</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contacto</h4>
+        <p>📍 Colón 24, Chiguayante</p>
+        <p>📞 (41) 236 7508</p>
+        <p>🏥 (41) 349 9415</p>
+        <p>💬 +56 9 5638 2630</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Clínica Veterinaria Larraín. Todos los derechos reservados. 🐾</p>
+    </div>
+  </footer>
+
+  <!-- FLOAT BUTTONS -->
+  <a href="https://wa.me/56956382630" target="_blank" class="float-btn float-wa" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+  <a href="https://www.instagram.com/veterinarialarrain" target="_blank" class="float-btn float-ig" aria-label="Instagram">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
