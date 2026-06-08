@@ -313,6 +313,10 @@ body{font-family:'Nunito',sans-serif;background:var(--white);color:var(--text-da
   .equipo-grid{grid-template-columns:repeat(2,1fr);}
   .horarios-grid{grid-template-columns:repeat(3,minmax(0,1fr));}
 }
+@media(max-width:900px){
+  .equipo-grid{grid-template-columns:1fr;}
+  .servicios-grid{grid-template-columns:repeat(2,1fr);}
+}
 @media(max-width:768px){
   .nav-links{display:none;flex-direction:column;position:fixed;top:72px;left:0;right:0;background:rgba(240,250,245,0.97);backdrop-filter:blur(16px);padding:20px 24px 30px;gap:4px;box-shadow:0 12px 40px rgba(26,158,107,0.15);}
   .nav-links.open{display:flex;}
